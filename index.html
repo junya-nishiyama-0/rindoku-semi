@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
     <link rel="stylesheet" href="reveal.js/dist/theme/white.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="reveal.js/dist/plugin/highlight/monokai.css" />
+    <script src="reveal.js/dist/plugin/highlight.js"></script>
   </head>
 
   <body>
@@ -28,7 +30,7 @@
         hash: true,
         transition: "slide",
         slideNumber: true,
-        plugins: [RevealMarkdown, RevealMath.KaTeX, RevealMathFit],
+        plugins: [RevealMarkdown, RevealMath.KaTeX, RevealHighlight, RevealMathFit],
       });
     </script>
   </body>

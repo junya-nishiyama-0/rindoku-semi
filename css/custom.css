@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+/* h2のupper化を無効に */
+.reveal .slides h3 {
+    text-transform: none;
+}
+
 /* h3以降は左寄せ */
 .reveal .slides h3,
 .reveal .slides h4,
@@ -13,6 +18,10 @@
 .reveal .slides ul,
 .reveal .slides ol {
     text-align: left;
+}
+
+.reveal .slides p {
+    font-size: 0.8em;
 }
 
 /* 表示数式の大きさと上下余白を、スライド向けに少し詰める */
