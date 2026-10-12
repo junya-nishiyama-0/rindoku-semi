@@ -1,1 +1,11 @@
-reveal.js/
+/reveal.js/
+vendor/reveal.js/plugin/
+vendor/reveal.js/dist/theme/*
+!vendor/reveal.js/dist/theme/white.css
+vendor/reveal.js/dist/plugin/*
+!vendor/reveal.js/dist/plugin/highlight.js
+!vendor/reveal.js/dist/plugin/markdown.js
+!vendor/reveal.js/dist/plugin/math.js
+!vendor/reveal.js/dist/plugin/highlight/
+vendor/reveal.js/dist/plugin/highlight/*
+!vendor/reveal.js/dist/plugin/highlight/monokai.css

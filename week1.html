@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 単回帰 | 機械学習セミナー</title>
+
+    <link rel="stylesheet" href="vendor/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="vendor/reveal.js/dist/theme/white.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="vendor/reveal.js/dist/plugin/highlight/monokai.css" />
+    <script src="vendor/reveal.js/dist/plugin/highlight.js"></script>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="slides/1_single_regression.md" data-separator="^---$" data-separator-vertical="^--$"
+          data-separator-notes="^Note:" data-charset="utf-8"></section>
+      </div>
+    </div>
+
+    <script src="vendor/reveal.js/dist/reveal.js"></script>
+    <script src="vendor/reveal.js/dist/plugin/markdown.js"></script>
+    <script src="vendor/reveal.js/dist/plugin/math.js"></script>
+    <script src="js/math-fit.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        transition: "slide",
+        slideNumber: true,
+        plugins: [RevealMarkdown, RevealMath.KaTeX, RevealHighlight, RevealMathFit],
+      });
+    </script>
+  </body>
+
+</html>

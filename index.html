@@ -4,35 +4,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>機械学習セミナー</title>
-
-    <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-    <link rel="stylesheet" href="reveal.js/dist/theme/white.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="reveal.js/dist/plugin/highlight/monokai.css" />
-    <script src="reveal.js/dist/plugin/highlight.js"></script>
+    <meta name="description" content="輪読セミナーの週別資料一覧" />
+    <title>輪読セミナー</title>
+    <link rel="stylesheet" href="css/landing.css" />
   </head>
 
   <body>
-    <div class="reveal">
-      <div class="slides">
-        <section data-markdown="slides/1_single_regression.md" data-separator="^---$" data-separator-vertical="^--$"
-          data-separator-notes="^Note:" data-charset="utf-8"></section>
-      </div>
-    </div>
+    <main>
+      <header>
+        <p class="eyebrow">Reading Seminar</p>
+        <h1>輪読セミナー</h1>
+        <p>週ごとの資料を掲載しています。</p>
+      </header>
 
-    <script src="reveal.js/dist/reveal.js"></script>
-    <script src="reveal.js/dist/plugin/markdown.js"></script>
-    <script src="reveal.js/dist/plugin/math.js"></script>
-    <script src="js/math-fit.js"></script>
-    <script>
-      Reveal.initialize({
-        hash: true,
-        transition: "slide",
-        slideNumber: true,
-        plugins: [RevealMarkdown, RevealMath.KaTeX, RevealHighlight, RevealMathFit],
-      });
-    </script>
+      <section aria-labelledby="materials-heading">
+        <h2 id="materials-heading">講義資料</h2>
+
+        <div class="week-list">
+          <a class="week-card" href="week1.html">
+            <span class="week-number">Week 1</span>
+            <strong>単回帰</strong>
+            <span>単回帰モデルと最小二乗法の基礎</span>
+          </a>
+
+          <div class="week-card is-wip" aria-disabled="true">
+            <span class="week-number">Week 2 以降</span>
+            <strong>準備中</strong>
+            <span>資料は順次追加予定です。</span>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 
 </html>
