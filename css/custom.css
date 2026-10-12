@@ -1,0 +1,32 @@
+/* h1・h2は中央寄せ */
+.reveal .slides h1,
+.reveal .slides h2 {
+    text-align: center;
+}
+
+/* h3以降は左寄せ */
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6,
+.reveal .slides p,
+.reveal .slides ul,
+.reveal .slides ol {
+    text-align: left;
+}
+
+/* 表示数式の大きさと上下余白を、スライド向けに少し詰める */
+.reveal .slides .katex-display {
+    font-size: 0.75em;
+    margin: 0.15em 0;
+}
+
+.reveal .slides .regression-figure {
+    display: block;
+    max-width: 92%;
+    max-height: 360px;
+    margin: 16px auto 0;
+    object-fit: contain;
+    border: 0;
+    box-shadow: none;
+}
